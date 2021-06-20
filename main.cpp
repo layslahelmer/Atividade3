@@ -9,7 +9,7 @@ using namespace std;
 int main(){
     setlocale(LC_ALL, "Portuguese");
     tCircuito cir;
-    cout << "Este progarma calcula a ressitência equivalente em série, em paralelo e a corrente total do circuito considerando como entradas duas resistências R1 e R2 e a tensão da fonte V1" << endl;
+    cout << "Este progarma calcula a resitência equivalente em série, em paralelo e a corrente total do circuito considerando como entradas duas resistências R1 e R2 e a tensão V1 da fonte" << endl;
     cout << "Digite o valor da resistência R1: ";
     cin >> cir.R1;
     cout << "Digite o valor da resistência R2: ";
